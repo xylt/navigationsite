@@ -8,10 +8,13 @@ i.icon,i.fa{ margin-right: 6px }
   width: 100%;
 }
 
-.col, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{ padding: 0px 5px; }
+.col, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
+{ 
+  padding: 0px 5px;
+ }
 
 /*自定义模式*/
-.customize-mode-tips{
+.customize-mode-tips {
   position: fixed;
   top: -75px;
   left: 50%;
@@ -84,13 +87,7 @@ header .logo a{
 header .logo img{
   width: 25px;
 }
-header .logo img{
-  /* animation: donghua 1.7s linear infinite;
-  -webkit-animation: donghua 1.7s linear infinite;
-  -moz-animation: donghua 1.7s linear infinite;
-  -o-animation: donghua 1.7s linear infinite;
-  -ms-animation: donghua 1.7s linear infinite; */
-}
+
 @-webkit-keyframes donghua{
   0%{
     transform: rotate(0deg);
@@ -160,6 +157,7 @@ header .logo img{
 header .main{
   position: relative;
 }
+
 header .nav{
   width: 100%;
   margin-left: 25px;
@@ -173,13 +171,14 @@ header .nav{
   position: absolute;
   top: -300px;
   left: 0;
-
 }
+
 header .showNav{
   top: 50px;
   box-shadow: 0 5px 5px rgba(204,204,204,.15);
   -moz-box-shadow: 0 5px 5px rgba(204,204,204,.15); /* 老的 Firefox */
 }
+
 header .nav li{
   font-size: 16px;
 }
@@ -436,8 +435,7 @@ header .animated2 .bottom{
   top: 0;
   bottom: 0;
 }
-/*搜索区域*/
-.sousuo{ padding: 35px 0;}
+
 #Select{
   width: 85%;
   float: left;
@@ -1408,17 +1406,6 @@ header .animated2 .bottom{
  }
 
 
-
-/*页脚*/
-/* .footer{
-  padding: 15px 20px 10px 20px;
-  border-top: 1px solid #d0d0d0;
-  background-color: #e8e8e8;
-  text-align: center;
-  font-size: 14px;
-  color: #5d5d5d;
-} */
-
 .cnzz_stat_icon_1261855216{
   display: none;
 }
@@ -1469,15 +1456,18 @@ header .animated2 .bottom{
   background: #fff;
   border-top: 1px solid #e3eaef;
 }
+
 .footer .footer-main{
   padding: 15px 0;
   color: #999;
 }
+
 .footer .footer-main p{
   margin: 0;
   line-height: 30px;
   text-align: center;
 }
+
 .footer .footer-main a{ color: #98c1ff }
 
 .duty-item .duty-card .duty-card-tit {
